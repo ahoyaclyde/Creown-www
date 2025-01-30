@@ -38,7 +38,7 @@ def not_found(error):
 class Company_Display_Profile(View):
    methods = ['GET']  
    def dispatch_request(self) -> str :
-        CompanyID = "CreOwn"
+        CompanyID = "CoinWryt"
         if request.method == 'GET':
             return render_template('Display.html' , CompanyID = CompanyID  )
         else: 
